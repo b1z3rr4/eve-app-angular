@@ -1,0 +1,48 @@
+.input {
+  width: 100%;
+
+  span {
+    color: #999;
+    cursor: text;
+    padding: 0 4px;
+    font-size: 12px;
+    background: #fff;
+    font-weight: bold;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    background-color:#fff;
+    color: #333;
+    margin-bottom: 10px;
+
+    ::placeholder {
+      color: #666;
+    }
+
+    :focus {
+      outline: none;
+      border-color: #0077b6;
+    }
+  }
+}
+
+.button {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 10px;
+  background-color: #0077b6;
+
+  :hover {
+    background-color: #00659B;
+  }
+}

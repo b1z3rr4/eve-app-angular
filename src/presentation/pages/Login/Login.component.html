@@ -1,3 +1,15 @@
-<p>
-  Login works!
-</p>
+<form (submit)="submitLogin($event)">
+    <div class="input">
+      <label>
+        <span>Email</span>
+        <input type="text" name="username" id="username">
+      </label>
+    </div>
+    <div class="input">
+      <label>
+        <span>Senha</span>
+        <input type="password" name="password" id="password">
+      </label>
+    </div>
+    <button class="button" type="submit">Entrar</button>
+</form>
